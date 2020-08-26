@@ -36,6 +36,11 @@ class BroadcastEvent implements EventBroadcaster
 
         $this->analytics->setEventAction($eventAction);
 
+        $eventCategory = env('GOOGLE_ANALYTICS_EVENT_CATEGORY');
+        if ($eventCategory) {
+            $this->analytics->setEventCategory($eventCategory);
+        }
+
         if (method_exists($event, 'withAnalytics')) {
             $event->withAnalytics($this->analytics);
         }
