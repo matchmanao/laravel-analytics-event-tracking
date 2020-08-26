@@ -1,7 +1,8 @@
 {
-    "name": "protonemedia/laravel-analytics-event-tracking",
+    "name": "matchmanao/laravel-analytics-event-tracking",
     "description": "Laravel package to easily send events to Google Analytics",
     "keywords": [
+        "matchmanao",
         "protonemedia",
         "laravel",
         "google-analytics",
@@ -10,13 +11,18 @@
         "laravel-analytics-event-tracking",
         "analytics-event-tracking"
     ],
-    "homepage": "https://github.com/pascalbaljetmedia/laravel-analytics-event-tracking",
+    "homepage": "https://github.com/matchmanao/laravel-analytics-event-tracking",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
             "name": "Pascal Baljet",
             "email": "pascal@protone.media",
+            "role": "Developer"
+        },
+        {
+            "name": "Stefan Kreuter",
+            "email": "stefan@matchmanao.de",
             "role": "Developer"
         }
     ],
