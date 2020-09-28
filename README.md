@@ -2,10 +2,10 @@
 https://twitter.com/pascalbaljet/status/1257926601339277312
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/protonemedia/laravel-analytics-event-tracking.svg?style=flat-square)](https://packagist.org/packages/protonemedia/laravel-analytics-event-tracking)
-[![Build Status](https://img.shields.io/travis/pascalbaljetmedia/laravel-analytics-event-tracking/master.svg?style=flat-square)](https://travis-ci.org/pascalbaljetmedia/laravel-analytics-event-tracking)
-[![Quality Score](https://img.shields.io/scrutinizer/g/pascalbaljetmedia/laravel-analytics-event-tracking.svg?style=flat-square)](https://scrutinizer-ci.com/g/pascalbaljetmedia/laravel-analytics-event-tracking)
+[![Build Status](https://img.shields.io/travis/protonemedia/laravel-analytics-event-tracking/master.svg?style=flat-square)](https://travis-ci.org/protonemedia/laravel-analytics-event-tracking)
+[![Quality Score](https://img.shields.io/scrutinizer/g/protonemedia/laravel-analytics-event-tracking.svg?style=flat-square)](https://scrutinizer-ci.com/g/protonemedia/laravel-analytics-event-tracking)
 [![Total Downloads](https://img.shields.io/packagist/dt/protonemedia/laravel-analytics-event-tracking.svg?style=flat-square)](https://packagist.org/packages/protonemedia/laravel-analytics-event-tracking)
-[![Buy us a tree](https://img.shields.io/badge/Treeware-%F0%9F%8C%B3-lightgreen)](https://plant.treeware.earth/pascalbaljetmedia/laravel-analytics-event-tracking)
+[![Buy us a tree](https://img.shields.io/badge/Treeware-%F0%9F%8C%B3-lightgreen)](https://plant.treeware.earth/protonemedia/laravel-analytics-event-tracking)
 
 Laravel package to easily send events to [Google Analytics](https://analytics.google.com/)
 
@@ -15,7 +15,7 @@ Laravel package to easily send events to [Google Analytics](https://analytics.go
 * Full access to the [underlying library](https://github.com/theiconic/php-ga-measurement-protocol).
 * API calls to GA are queued.
 * Easy to configure.
-* Compatible with Laravel 6.0 and 7.0.
+* Compatible with Laravel 6.0 and higher.
 * PHP 7.4 required.
 
 ## Installation
@@ -246,13 +246,13 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Other Laravel packages
 
-* [`Laravel Blade On Demand`](https://github.com/pascalbaljetmedia/laravel-blade-on-demand): Laravel package to compile Blade templates in memory.
-* [`Laravel Cross Eloquent Search`](https://github.com/pascalbaljetmedia/laravel-cross-eloquent-search): Laravel package to search through multiple Eloquent models.
-* [`Laravel FFMpeg`](https://github.com/pascalbaljetmedia/laravel-ffmpeg): This package provides an integration with FFmpeg for Laravel. The storage of the files is handled by Laravel's Filesystem.
-* [`Laravel Form Components`](https://github.com/pascalbaljetmedia/laravel-form-components): Blade components to rapidly build forms with Tailwind CSS Custom Forms and Bootstrap 4. Supports validation, model binding, default values, translations, includes default vendor styling and fully customizable!
-* [`Laravel Paddle`](https://github.com/pascalbaljetmedia/laravel-paddle): Paddle.com API integration for Laravel with support for webhooks/events.
-* [`Laravel Verify New Email`](https://github.com/pascalbaljetmedia/laravel-verify-new-email): This package adds support for verifying new email addresses: when a user updates its email address, it won't replace the old one until the new one is verified.
-* [`Laravel WebDAV`](https://github.com/pascalbaljetmedia/laravel-webdav): WebDAV driver for Laravel's Filesystem.
+* [`Laravel Blade On Demand`](https://github.com/protonemedia/laravel-blade-on-demand): Laravel package to compile Blade templates in memory.
+* [`Laravel Cross Eloquent Search`](https://github.com/protonemedia/laravel-cross-eloquent-search): Laravel package to search through multiple Eloquent models.
+* [`Laravel FFMpeg`](https://github.com/protonemedia/laravel-ffmpeg): This package provides an integration with FFmpeg for Laravel. The storage of the files is handled by Laravel's Filesystem.
+* [`Laravel Form Components`](https://github.com/protonemedia/laravel-form-components): Blade components to rapidly build forms with Tailwind CSS Custom Forms and Bootstrap 4. Supports validation, model binding, default values, translations, includes default vendor styling and fully customizable!
+* [`Laravel Paddle`](https://github.com/protonemedia/laravel-paddle): Paddle.com API integration for Laravel with support for webhooks/events.
+* [`Laravel Verify New Email`](https://github.com/protonemedia/laravel-verify-new-email): This package adds support for verifying new email addresses: when a user updates its email address, it won't replace the old one until the new one is verified.
+* [`Laravel WebDAV`](https://github.com/protonemedia/laravel-webdav): WebDAV driver for Laravel's Filesystem.
 
 ### Security
 
