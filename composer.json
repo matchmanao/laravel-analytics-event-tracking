@@ -24,10 +24,15 @@
             "name": "Stefan Kreuter",
             "email": "stefan@matchmanao.de",
             "role": "Developer"
+        },
+        {
+            "name": "Jan Hohner",
+            "email": "jan@matchmanao.de",
+            "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.4",
+        "php": "^7.4 || ^8.0",
         "illuminate/bus": "^6.0 || ^7.0 || ^8.0",
         "illuminate/queue": "^6.0 || ^7.0 || ^8.0",
         "illuminate/http": "^6.0 || ^7.0 || ^8.0",
